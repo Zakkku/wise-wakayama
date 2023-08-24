@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+h3 {
+margin-top: 50px;
+}
+
+img {
+    width: 50px;
+}
+
+img:hover {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+.transparent-link {
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+.transparent-link:hover {
+    opacity: 0.7; /* Reduced opacity on hover */
+}
