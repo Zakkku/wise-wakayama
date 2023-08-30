@@ -146,8 +146,8 @@ header {
     justify-content: flex-start; /* Start from left */
     align-items: center;
     width: 600%; /* Total width for 6 images */
-    transition: transform 0.7s ease-in-out;
-    animation: scrollGallery 30s linear infinite alternate; /* Auto-scroll animation */
+    transition: transform 1s ease-in-out;
+    animation: scrollGallery 50s linear infinite alternate; /* Auto-scroll animation */
 }
 
 .gallery-image {
@@ -180,11 +180,16 @@ footer {
     margin: 0 10px;
 }
 
-.social-links img {
+/* .social-links img {
     width: 30px;
     height: 30px;
-}
+} */
+/* 
+#instagram-icon {
+    width: 50px;
+} */
 
 .footer-text {
     margin-top: 10px;
+    font-size: 10px;
 }
