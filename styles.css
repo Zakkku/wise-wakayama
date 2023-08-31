@@ -30,6 +30,12 @@ header {
     align-items: center;
 }
 
+/* Translate Page link*/
+#translate-page-link {
+    color: #fff;
+    font-size: 12px;
+}
+
 /* Hamburger Menu Styles */
 .hamburger-menu {
     display: flex;
