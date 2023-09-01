@@ -8,7 +8,10 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-align: center;
 }
+
+
 
 /* Header */
 header {
@@ -121,6 +124,8 @@ header {
     max-width: 300px;
 }
 
+
+
 .about-image {
     width: 150px;
     height: 150px;
@@ -137,6 +142,23 @@ header {
 .about-item p {
     font-size: 1rem;
     color: #666;
+}
+/* Class info section*/
+.class-info-section h2 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.class-info-section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.class-info-section h3 {
+    font-size: 1.2rem;
+    color: #333;
 }
 
 /* Photo Gallery */
@@ -171,6 +193,13 @@ header {
         transform: translateX(-100%); /* Move to next image */
     }
 }
+
+.photo-gallery h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
 
 /* Footer */
 footer {
