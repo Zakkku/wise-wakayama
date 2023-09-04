@@ -144,6 +144,14 @@ header {
     color: #666;
 }
 /* Class info section*/
+
+.class-info-section {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
 .class-info-section h2 {
     margin-bottom: 10px;
     margin-top: 40px;
@@ -199,6 +207,28 @@ header {
     font-size: 1.5rem;
     color: #333;
 }
+
+/* Contact section styles */
+.contact-section {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 300px;
+}
+
 
 
 /* Footer */
