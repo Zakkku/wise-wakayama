@@ -108,6 +108,22 @@ header {
     font-size: 1rem;
     color: #666;
 }
+/* past events section*/
+.past-events-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.two-column-list {
+    column-count: 2; /* Set the number of columns to 2 */
+    column-gap: 0; /* Adjust the gap between columns as needed */
+}
+
+.past-events-section ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove any default padding */
+}
 
 /* About Section */
 .about-section {
