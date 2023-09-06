@@ -233,6 +233,10 @@ header {
     background-color: #f9f9f9;
 }
 
+.parking-h2 {
+    margin-top: 20px;
+}
+
 .contact-section h2 {
     margin-bottom: 10px;
     font-size: 1.5rem;
