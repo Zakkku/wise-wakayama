@@ -286,3 +286,8 @@ footer {
     margin-top: 10px;
     font-size: 10px;
 }
+
+footer a {
+    color: #fff;
+    /* text-decoration: none; */
+}
