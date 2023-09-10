@@ -267,12 +267,19 @@ footer {
     padding: 10px 0;
 }
 
-.social-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+.social-links {
+    display: flex;
+    justify-content: center;
 }
 
+#youtube-icon-div {
+    margin-left: 5px;
+}
+
+#line-icon-div {
+    padding-top: 7px;
+    margin-left: 8px;
+}
 
 .footer-text {
     margin-top: 10px;
@@ -282,4 +289,8 @@ footer {
 footer a {
     color: #fff;
     /* text-decoration: none; */
+}
+
+#line-icon {
+    
 }
