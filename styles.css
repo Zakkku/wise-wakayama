@@ -192,6 +192,10 @@ header {
     font-size: 1rem;
     color: #666;
 }
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
 /* Class info section*/
 
 .class-info-section {
