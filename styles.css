@@ -178,6 +178,11 @@ header {
     margin-bottom: 10px;
 }
 
+.about-image-square {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
 .about-item h3 {
     font-size: 1.2rem;
     color: #333;
