@@ -220,7 +220,15 @@ header {
 .class-info-section h3 {
     font-size: 1.2rem;
     color: #333;
+
+   
 }
+
+ /*qualifications sections*/
+.qualifications a {
+    margin-bottom: 6px;
+}
+
 
 /* Photo Gallery */
 .photo-gallery {
