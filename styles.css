@@ -257,7 +257,7 @@ header {
 
 @keyframes scrollGallery {
     0% {
-        transform: translateX(0);
+        transform: translateX(-1%);
     }
     100% {
         transform: translateX(-82%); /* Move to next image */
