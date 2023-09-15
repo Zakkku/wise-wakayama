@@ -244,7 +244,7 @@ header {
     align-items: center;
     width: 600%; /* Total width for 6 images */
     transition: transform 1s ease-in-out;
-    animation: scrollGallery 52s linear infinite alternate; /* Auto-scroll animation */
+    animation: scrollGallery 35s linear infinite alternate; /* Auto-scroll animation */
     
 }
 
