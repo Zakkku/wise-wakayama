@@ -230,7 +230,7 @@ header {
 }
 
 
-/* Photo Gallery */
+/* General Photo Gallery */
 .photo-gallery {
     text-align: center;
     padding: 20px;
@@ -269,6 +269,47 @@ header {
     font-size: 1.5rem;
     color: #333;
 }
+
+/* Bar Photo Gallery */
+.bar-photo-gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.bar-gallery-container {
+    display: flex;
+    justify-content: flex-start; /* Start from left */
+    align-items: center;
+    width: 300%; /* Total width for 3 images */
+    transition: transform 1s ease-in-out;
+    animation: scrollBarGallery 10s linear infinite alternate; /* Auto-scroll animation */
+    
+}
+
+.bar-gallery-image {
+    width: 33.333%; /* 100% divided by 3 images */
+    height: auto;
+    opacity: 1; /* Set to 1 for all images */
+    object-fit: cover;
+}
+
+@keyframes scrollBarGallery {
+    0% {
+        transform: translateX(-1%);
+    }
+    100% {
+        transform: translateX(-65%); /* Move to next image */
+    }
+}
+
+.bar-photo-gallery h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
 
 /* Contact section styles */
 .contact-section {
