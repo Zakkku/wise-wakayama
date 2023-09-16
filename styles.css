@@ -297,7 +297,7 @@ header {
 
 @keyframes scrollBarGallery {
     0% {
-        transform: translateX(-1%);
+        transform: translateX(-1.5%);
     }
     100% {
         transform: translateX(-65%); /* Move to next image */
