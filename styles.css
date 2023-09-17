@@ -250,7 +250,9 @@ header {
 
 .gallery-image {
     width: 16.666%; /* 100% divided by 6 images */
+    max-width: 450px;
     height: auto;
+    max-height: 300px;
     opacity: 1; /* Set to 1 for all images */
     object-fit: cover;
 }
@@ -370,3 +372,30 @@ footer a {
     /* text-decoration: none; */
 }
 
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .header-image {
+        max-width: 500px;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .gallery-container {
+       
+        animation: scrollGallery 10s linear infinite alternate; /* Auto-scroll animation */
+        
+    }
+    
+
+    @keyframes scrollGallery {
+        0% {
+            transform: translateX(-1%);
+        }
+        100% {
+            transform: translateX(-17%); 
+        }
+    }
+  }
