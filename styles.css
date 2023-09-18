@@ -332,11 +332,10 @@ img {
   /* Six columns side by side */
   .column {
     float: left;
-    width: 16.66%;
     position: relative;
-    width: 16.66%;  /* This remains the same, as you want six thumbnails side-by-side */
+    width: 12.5%;  /* This will be 100 divided by number of thumbnails, if you want all thumbnails side-by-side */
     overflow: hidden;
-    padding-top: 16.66%;  /* This creates the square shape. The value should match the width */
+    padding-top: 12.5%;  /* This creates the square shape. The value should match the width */
   }
 
   .column img.demo {
