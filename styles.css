@@ -24,6 +24,14 @@ body {
     margin-bottom: 100px;
 }
 
+.click-here-link {
+    margin-bottom: 8px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
 
 
 /* Header */
@@ -336,6 +344,7 @@ img {
     width: 12.5%;  /* This will be 100 divided by number of thumbnails, if you want all thumbnails side-by-side */
     overflow: hidden;
     padding-top: 12.5%;  /* This creates the square shape. The value should match the width */
+    margin-bottom: 40px;
   }
 
   .column img.demo {
@@ -385,7 +394,7 @@ img {
 /* General Photo Gallery */
 .photo-gallery {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
     background-color: #f9f9f9;
     overflow: hidden; /* Hide overflowing images */
 }
