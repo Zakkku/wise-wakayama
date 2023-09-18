@@ -405,7 +405,7 @@ img {
     align-items: center;
     width: 600%; /* Total width for 6 images */
     transition: transform 1s ease-in-out;
-    animation: scrollGallery 35s linear infinite alternate; /* Auto-scroll animation */
+    animation: scrollGallery 30s linear infinite alternate; /* Auto-scroll animation */
     
 }
 
@@ -560,7 +560,7 @@ footer a {
             transform: translateX(-1%);
         }
         100% {
-            transform: translateX(-17%); 
+            transform: translateX(-13%); 
         }
     }
 
