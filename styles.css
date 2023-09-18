@@ -105,6 +105,7 @@ header {
     padding: 20px;
     text-align: center;
     background-color: #f9f9f9;
+    
 }
 
 .learn-section h2 {
@@ -115,7 +116,8 @@ header {
 
 .learn-section p {
     font-size: 1rem;
-    color: #666;
+    color: #666;   
+ 
 }
 /* past events section*/
 .past-events-section h2 {
@@ -215,6 +217,7 @@ header {
 .class-info-section p {
     font-size: 1rem;
     color: #666;
+   
 }
 
 .class-info-section h3 {
@@ -223,6 +226,23 @@ header {
 
    
 }
+
+/*Rob Info Section*/
+.rob-info-section {
+ display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+}
+
+.rob-info-section h3, h2, p {
+    color: #333;
+}
+
+.rob-info-section p {
+    max-width: 70%;
+}
+
+
 
  /*qualifications sections*/
 .qualifications a {
