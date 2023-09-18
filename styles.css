@@ -292,7 +292,7 @@ header {
 
 .bar-gallery-image {
     width: 33.333%; /* 100% divided by 3 images */
-    height: auto;
+    max-height: 300px;
     opacity: 1; /* Set to 1 for all images */
     object-fit: cover;
 }
