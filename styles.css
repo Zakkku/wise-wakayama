@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+.slightly-rounded-img {
+    border-radius: 10px;
+}
+
 
 
 /* Header */
