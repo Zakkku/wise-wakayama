@@ -234,12 +234,14 @@ header {
     align-items: center;
 }
 
-.rob-info-section h3, h2, p {
+.rob-info-section h3, h2 {
     color: #333;
+    
 }
 
 .rob-info-section p {
-    max-width: 70%;
+    max-width: 90%;
+    color: #666;
 }
 
 
@@ -401,6 +403,10 @@ footer a {
         height: auto;
         margin-top: 20px;
         border-radius: 10px;
+    }
+
+    .rob-info-section p {
+        max-width: 70%;
     }
 
     .gallery-container {
