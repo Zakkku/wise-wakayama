@@ -4,6 +4,11 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
@@ -232,6 +237,122 @@ header {
 }
 
 /* b-day party gallery*/
+
+
+img {
+    vertical-align: middle;
+  }
+  
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;  /* this centers the container on the page */
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    max-width: 600px;  /* to prevent the image from growing too wide */
+    max-height: 600px; /* to prevent the image from growing too tall */
+    width: auto;       /* to maintain aspect ratio */
+    height: auto;      /* to maintain aspect ratio */
+    display: block;    /* to remove any extra space at the bottom */
+    margin: 0 auto;    /* center the image */
+}
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 10;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+    position: relative;
+    width: 16.66%;  /* This remains the same, as you want six thumbnails side-by-side */
+    overflow: hidden;
+    padding-top: 16.66%;  /* This creates the square shape. The value should match the width */
+  }
+
+  .column img.demo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;  
+    max-height: 100%;  
+}
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
 
 /*Rob Info Section*/
 .rob-info-section {
