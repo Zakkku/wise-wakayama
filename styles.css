@@ -544,6 +544,14 @@ footer a {
         border-radius: 10px;
     }
 
+ 
+
+    .main-about-section__inner-div {
+        
+        display: flex;
+        margin: 0 auto;
+    }
+
     .rob-info-section p {
         max-width: 70%;
     }
