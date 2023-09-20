@@ -378,10 +378,20 @@ img {
     
 }
 
+.rob-info-section img {
+    margin-bottom: 40px;
+}
+
+.rob-info-section h2 {
+    margin-top: 20px;
+}
+
 .rob-info-section p {
     max-width: 90%;
     color: #666;
 }
+
+
 
 
 
@@ -506,7 +516,7 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 40px 0;
 }
 
 .social-links {
@@ -525,7 +535,7 @@ footer {
 
 .footer-text {
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 footer a {
@@ -547,14 +557,71 @@ footer a {
  
 
     .main-about-section__inner-div {
-        
+       
         display: flex;
         margin: 0 auto;
     }
 
-    .rob-info-section p {
-        max-width: 70%;
+    .main-class-info-section__inner-div {
+     
+        display: flex;
+       
+        flex-direction: row; 
+        
     }
+
+    #main-class-info-section__additional-info {
+     margin-top: 50px;
+     margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        
+    }
+
+    #main-class-info-section__additional-info h3 {
+        margin-bottom: 20px;
+    }
+
+    .additional-information-div {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .additional-information-div p {
+        margin-left: 20px
+    }
+
+
+    .rob-info-section p {
+        max-width: 50%;
+    }
+
+    .contact-section {
+        display: flex;
+        background-color: cornflowerblue;
+        flex-direction: row;
+        justify-content: center;
+      
+    }
+
+    .contact-section__inner-div {
+        margin-left: 100px;
+    }
+
+    .contact-section__inner-div p {
+      text-align: left;
+       max-width: 450px;
+    }
+
+    .access-contact-inner-div {
+        margin-top: 20px;
+    }
+
+    
 
     .gallery-container {
        
