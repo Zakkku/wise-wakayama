@@ -549,6 +549,7 @@ footer a {
     display: none;
 }
 
+
 .rob-info-section__desktop-h2 {
     display: none;
 }
@@ -648,6 +649,11 @@ footer a {
         display: block;
     }
 
+    .rob-info-section__for-desktop__inner-div-for-ps {
+        padding-top: 30px;
+       
+    }
+
     .rob-info-section__for-desktop__inner-div-for-ps p {
         
       max-width: 500px;
@@ -661,6 +667,7 @@ footer a {
 
 .rob-info-section__for-desktop p {
     color: #666;
+    margin-bottom: 5px;
 }
 
 .about-image-square {
