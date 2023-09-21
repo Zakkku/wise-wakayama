@@ -264,6 +264,9 @@ img {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;  /* this centers the container on the page */
+    padding-top: 40px;
+    background-color: black;
+    margin-bottom: 40px;
   }
   
   /* Hide the images by default */
@@ -752,14 +755,15 @@ footer a {
 
     .poker-pic-event-page__desktop {
        
-        padding-top: 10px;
+       
         
        
     }
 
     .container {
-        
+       
         width: 500px;
+        border-radius: 8px;
         
     }
 }
