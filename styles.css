@@ -719,6 +719,7 @@ footer a {
         width: 50%;
         margin: 0 auto;
         text-align: left;
+        margin-bottom: 80px;
     }
 
     @keyframes scrollGallery {
