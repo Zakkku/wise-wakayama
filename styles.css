@@ -697,7 +697,12 @@ footer a {
         text-align: left;
     }
 
-    
+    .bar-page__class-info-section {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+    }
 
     .gallery-container {
        
