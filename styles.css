@@ -404,6 +404,16 @@ img {
  /*qualifications sections*/
 .qualifications a {
     margin-bottom: 6px;
+    
+}
+
+.qualifications-inner-div {
+   border: 1.5px solid #999898;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 
