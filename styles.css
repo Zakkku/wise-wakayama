@@ -553,10 +553,14 @@ footer a {
     display: none;
 }
 
+/*styles for all screen widths*/
+.textbooks-img__desktop {
+    max-height: 300px;
+}
 
 /* Media Queries */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 980px) {
     /* For desktop: */
     .header-image {
         max-width: 500px;
