@@ -553,6 +553,10 @@ footer a {
     display: none;
 }
 
+.rob-info-section-for-about-page__desktop {
+    display: none;
+}
+
 
 .rob-info-section__desktop-h2 {
     display: none;
@@ -648,7 +652,25 @@ footer a {
         justify-content: space-evenly;
         align-items: center;
     }
+/* for about page on desktop*/
+    .rob-info-section-for-about-page__desktop {
+        display:block;
+        margin-top: 40px;
+    }
 
+    .rob-info-section-for-about-page__desktop img{
+        margin-bottom: 20px;
+    }
+
+    .rob-info-section-for-about-page__desktop p, .about-page-about-section-ENG__desktop p {
+        color:#666;
+        width: 80%;
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+/*end of for about page styles on desktop*/
     .rob-info-section__desktop-h2 {
         display: block;
     }
