@@ -736,6 +736,32 @@ footer a {
     .contact-section p {
         color: rgb(73, 73, 73);
     }
+
+    .two-column-list {
+       
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .events-photos-section {
+       
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+
+    .poker-pic-event-page__desktop {
+       
+        padding-top: 10px;
+        
+       
+    }
+
+    .container {
+        
+        width: 500px;
+        
+    }
 }
 
 /* Keyframes for the bar gallery */
