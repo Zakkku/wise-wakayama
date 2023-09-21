@@ -714,6 +714,12 @@ footer a {
         
     }
     
+    .forest-school-info-section__desktop {
+       
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
 
     @keyframes scrollGallery {
         0% {
