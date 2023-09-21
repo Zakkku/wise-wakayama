@@ -732,6 +732,10 @@ footer a {
         max-width: 427px; /* Reset the width for larger screens */
         
     }
+
+    .contact-section p {
+        color: rgb(73, 73, 73);
+    }
 }
 
 /* Keyframes for the bar gallery */
@@ -746,6 +750,6 @@ footer a {
 
   }
 
- 
+
   
   
