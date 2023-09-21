@@ -705,12 +705,13 @@ footer a {
         display: flex;
         background-color: cornflowerblue;
         flex-direction: row;
-        justify-content: center;
+        justify-content:space-evenly;
+        
       
     }
 
     .contact-section__inner-div {
-        margin-left: 100px;
+        margin-left: 14px;
     }
 
     .contact-section__inner-div p {
