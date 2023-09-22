@@ -806,6 +806,44 @@ footer a {
         border-radius: 8px;
         
     }
+
+    /* for desktop navigation menu*/
+    .nav-links {
+        display: flex !important; /* Adding !important to ensure override */
+        
+    }
+
+    /* Hide the hamburger menu on desktop */
+    .hamburger-menu {
+        display: none;
+    }
+
+    /* Show the nav-links on desktop and style them horizontally */
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        padding: 0;
+        transform: none;
+       justify-content: center;
+    }
+
+    /* Adjust the nav-link styling for desktop */
+    .nav-links a {
+        margin-right: 20px;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+    .nav-links a:last-child {
+        margin-right: 0; /* remove right margin for the last link */
+    }
+
+    /* Hide close button on desktop */
+    .close-btn {
+        display: none;
+    }
+
 }
 
 /* Keyframes for the bar gallery */
