@@ -839,6 +839,12 @@ footer a {
         margin-right: 0; /* remove right margin for the last link */
     }
 
+    /*I was going to use this for the navlinks but decided to make all links on all pages do it*/
+     a:hover {
+        opacity: 0.7; /* Adjust this value to your liking; 1 is fully opaque, 0 is fully transparent */
+        transition: opacity 0.3s ease; /* This ensures a smooth transition */
+    }
+
     /* Hide close button on desktop */
     .close-btn {
         display: none;
