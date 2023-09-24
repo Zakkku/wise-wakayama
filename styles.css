@@ -593,10 +593,59 @@ footer a {
     max-height: 300px;
 }
 
+    /*Read more button*/
+    #more {display: none;}
+
+    .bar-page-header-p__desktop {
+        display: none;
+    }
+
+    #myBtn {
+            
+            border: none;
+            color: white;
+            padding: 12px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+    
+
+    #myBtn {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+      }
+      
+      #myBtn:hover {
+        background-color: #555555;
+        color: white;
+      }
+
 /* Media Queries */
 
 @media only screen and (min-width: 980px) {
     /* For desktop: */
+ 
+    /*read more button*/
+.bar-page-header-p__mobile {
+    display: none;
+}
+
+.bar-page-header-p__desktop {
+    display: block;
+}
+
+#myBtn {
+    display: none;
+}
+
+
+    
     .header-image {
         max-width: 500px;
         height: auto;
