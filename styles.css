@@ -843,13 +843,17 @@ footer a {
         padding: 0;
         transform: none;
        justify-content: center;
+      background-color: cornflowerblue;
     }
 
     /* Adjust the nav-link styling for desktop */
     .nav-links a {
-        margin-right: 20px;
-        margin-bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 5px;
+        margin-top: 5px;
         font-size: 1rem;
+        color:#333;
+       
     }
 
     .nav-links a:last-child {
