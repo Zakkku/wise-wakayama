@@ -522,7 +522,7 @@ img {
     flex-direction: column; /* Change to column */
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: cornflowerblue;
 }
 
 .parking-h2 {
@@ -537,7 +537,7 @@ img {
 
 .contact-section p {
     font-size: 1rem;
-    color: #666;
+    color: rgb(73, 73, 73);
     max-width: 300px;
 }
 
