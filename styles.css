@@ -165,6 +165,11 @@ header {
     column-count: 2; /* Set the number of columns to 2 */
     column-gap: 0; /* Adjust the gap between columns as needed */
     margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: 1.5px solid #999898;
+    border-radius: 5px;
+    
 }
 
 .past-events-section ul {
