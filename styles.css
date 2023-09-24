@@ -142,6 +142,13 @@ header {
     color: #666;   
  
 }
+
+/* header p on the bar page*/
+.bar-page-header-p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* past events section*/
 .past-events-section h2 {
     margin-bottom: 10px;
