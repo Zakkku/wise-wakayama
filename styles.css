@@ -923,8 +923,8 @@ footer a {
 
     /*I was going to use this for the navlinks but decided to make all links on all pages do it*/
      a:hover {
-        opacity: 0.7; /* Adjust this value to your liking; 1 is fully opaque, 0 is fully transparent */
-        transition: opacity 0.3s ease; /* This ensures a smooth transition */
+        opacity: 0.7; 
+        transition: opacity 0.3s ease; 
     }
 
     /* Hide close button on desktop */
@@ -932,10 +932,21 @@ footer a {
         display: none;
     }
 
-    .nav-link:hover {
-        color: white;
-        opacity: 1;
+
+    .nav-link:hover:not(.active-tab) {
+        /* color: white; */
+        opacity: 0.5; /* Adjust this value to your liking; 1 is fully opaque, 0 is fully transparent */
+        transition: 0.3s ease;
     }
+
+      .active-tab {
+        color: white !important;
+      }
+
+      .active-tab:hover {
+       
+        opacity: 1;
+      }
 
    
 }
