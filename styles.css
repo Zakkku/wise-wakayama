@@ -616,32 +616,33 @@ footer a {
     }
 
     #myBtn {
-            
-            border: none;
-            color: white;
-            padding: 12px 22px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 10px;
-          }
-    
-
-    #myBtn {
-        background-color: white;
-        color: black;
         border: 2px solid #555555;
+        background-color: white; /* Set the initial background color to white */
+        color: black;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
       }
       
-      #myBtn:hover {
+      #myBtn.clicked {
+        background-color: #555555; /* Grey background for the "Read less" state */
+        color: white;
+        border: none;
+      }
+      
+      #myBtn:not(.clicked):hover {
         background-color: #555555;
         color: white;
       }
+      
+      
 
 /* Media Queries */
 
