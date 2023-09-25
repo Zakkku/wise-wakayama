@@ -401,7 +401,7 @@ img {
  display: flex;
     flex-direction: column; /* Change to column */
     align-items: center;
-    border-bottom: 3px solid #999898;
+    /* border-bottom: 3px solid #999898; */
 }
 
 .rob-info-section h3, h2 {
@@ -743,7 +743,7 @@ footer a {
         margin-bottom: 20px;
         justify-content: space-evenly;
         align-items: center;
-        border-bottom: 3px solid #999898;
+        /* border-bottom: 3px solid #999898; */
     }
 /* for about page on desktop*/
     .rob-info-section-for-about-page__desktop {
