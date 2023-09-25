@@ -1,3 +1,5 @@
+
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -902,6 +904,9 @@ footer a {
       background-color: cornflowerblue;
     }
 
+   
+   
+
     /* Adjust the nav-link styling for desktop */
     .nav-links a {
         margin-right: 40px;
@@ -927,6 +932,12 @@ footer a {
         display: none;
     }
 
+    .nav-link:hover {
+        color: white;
+        opacity: 1;
+    }
+
+   
 }
 
 /* Keyframes for the bar gallery */
