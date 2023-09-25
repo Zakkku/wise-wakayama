@@ -163,6 +163,11 @@ header {
     margin-top: 40px;
 }
 
+.events-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .two-column-list {
     column-count: 2; /* Set the number of columns to 2 */
     column-gap: 0; /* Adjust the gap between columns as needed */
@@ -857,9 +862,8 @@ footer a {
     }
 
     .two-column-list {
-       
-        width: 40%;
-        margin: 0 auto 40px auto;
+       width: 80%;
+        /* margin: 0 auto 40px auto; */
     }
 
     .events-photos-section {
@@ -871,7 +875,23 @@ footer a {
         justify-content:space-evenly;
     }
 
- 
+    .events-list-container {
+        
+        flex-direction: row;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: space-evenly;
+        
+    }
+
+    .events-list-ul-container {
+        display: flex;
+        flex-direction: column;
+      width: 100%
+      
+       
+    }
 
     
 
