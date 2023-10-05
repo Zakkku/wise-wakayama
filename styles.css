@@ -53,6 +53,12 @@ header {
     font-weight: bold;
 }
 
+.header-logo {
+    margin-right: 10px;
+    height: 60px;
+    margin-left: -10px;
+}
+
 .header-right {
     display: flex;
     align-items: center;
