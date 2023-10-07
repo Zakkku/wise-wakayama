@@ -575,7 +575,11 @@ footer {
 
 .bottom-p {
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 14px;
+}
+
+.jpn-bottom-p {
+    font-size: 13px;
 }
 
 .social-links {
