@@ -606,6 +606,35 @@ footer a {
     /* text-decoration: none; */
 }
 
+.footer-logo {
+    height: 65px;
+    background-color:#f36f6f;
+    /* margin: 30px 0 -20px 75%; */
+ 
+    border-radius: 5px;
+}
+
+.footer-logo-container {
+   margin-bottom: -22px;
+    text-align: right;
+}
+
+.footer-logo-container-inner {
+    
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.footer-logo-container-inner p {
+    margin-bottom: 3px;
+}
+
+.footer-logo-container-inner a {
+    text-decoration: none;
+}
+
 .rob-info-section__for-desktop {
     display: none;
 }
