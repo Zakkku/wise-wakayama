@@ -1014,8 +1014,8 @@ footer a {
 
 
   
-  #goToTopBtn {
-    display: block;
+  /* #goToTopBtn {
+    display: none;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -1027,6 +1027,26 @@ footer a {
     color: white;
     cursor: pointer;
     padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #goToTopBtn:hover {
+    background-color: #555;
+  } */
+
+  #goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 99;
+    font-size: 14px;
+    border: 2px solid white;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px 4px 10px 5px;
     border-radius: 4px;
   }
   

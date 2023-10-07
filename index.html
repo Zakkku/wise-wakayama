@@ -8,7 +8,7 @@
     
 </head>
 <body>
-  
+  <!-- <button href="#" onclick="topFunction()" id="goToTopBtn" title="Go to top">Top</button> -->
     <header>
         <div class="header-left">
           <img class="header-logo" src="photos/wise logo.jpg" alt="The Wise Logo">
@@ -36,7 +36,9 @@
         <a href="about.html" class="nav-link">ロブ先生について</a>
         
     </div>
-    <button href="#" onclick="topFunction()" id="goToTopBtn" title="Go to top">Top</button>
+
+    
+
   <img src="photos/wise-english-pics/Saturday Class Study Pic.jpg" alt="Header Image" class="header-image">
 <section class="learn-section">
     <h2>和歌山インターナショナル英語スクール</h2>
@@ -346,7 +348,36 @@
 
 </footer>
 
+<button onclick="scrollToTop()" id="goToTopBtn">Go to Top ↑</button>
+
     <script src="script.js"></script>
-    
+
+    <script>
+      //Go to top button
+// Get the button
+let goToTopButton = document.getElementById("goToTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const scrollPosition = window.scrollY; // Get the vertical scroll position
+
+  console.log("Vertical Scroll Position:", scrollPosition); // Log the scroll position to the console
+
+  if (scrollPosition > 200) {
+    goToTopButton.style.display = "block";
+  } else {
+    goToTopButton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+   
 </body>
 </html>
