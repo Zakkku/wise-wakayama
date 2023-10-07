@@ -44,9 +44,7 @@ body {
     background-color: rgb(9, 9, 9);
 }
 
-#test-color-nav-link {
-    color: rgb(9, 9, 9);
-}
+
 
 header {
     display: flex;
@@ -98,11 +96,14 @@ header {
 }
 
 /* Navigation Styles */
+
+
+
 .nav-links {
     display: none;
     flex-direction: column;
     color: #fff;
-    background-color: #333;
+    background-color: rgb(9, 9, 9);
     position: fixed;
     top: 0;
     right: 0;
@@ -966,6 +967,11 @@ footer a {
    
 
     /* Adjust the nav-link styling for desktop */
+
+    #test-color-nav-link {
+        color: rgb(9, 9, 9);
+    }
+
     .nav-links a {
         margin-right: 40px;
         margin-bottom: 5px;
