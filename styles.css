@@ -39,6 +39,11 @@ body {
 
 
 /* Header */
+
+#color-test-header {
+    background-color: rgb(11, 9, 9);
+}
+
 header {
     display: flex;
     justify-content: space-between;
