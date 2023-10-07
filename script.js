@@ -87,4 +87,28 @@ function readMoreButton() {
   }
 }
 
+//Go to top button
+// Get the button
+let goToTopButton = document.getElementById("goToTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const scrollPosition = window.scrollY; // Get the vertical scroll position
+
+  console.log("Vertical Scroll Position:", scrollPosition); // Log the scroll position to the console
+
+  if (scrollPosition > 20) {
+    goToTopButton.style.display = "block";
+  } else {
+    goToTopButton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 

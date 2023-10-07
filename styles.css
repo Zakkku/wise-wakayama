@@ -658,7 +658,8 @@ footer a {
         background-color: #555555;
         color: white;
       }
-      
+     
+     
       
 
 /* Media Queries */
@@ -1006,4 +1007,22 @@ footer a {
 
 
   
+  #goToTopBtn {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1001;
+    font-size: 18px;
+    border: 1px solid #555;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
   
+  #goToTopBtn:hover {
+    background-color: #555;
+  }
