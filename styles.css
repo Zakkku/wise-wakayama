@@ -1072,3 +1072,12 @@ footer a {
   #goToTopBtn:hover {
     background-color: #555;
   }
+
+  /***********************************************************/
+  /*Style for news pages*/
+  #news-page-ul {
+    margin: 0 auto;
+    text-align: left;
+    width: 200px;
+    color:#555;
+  }
