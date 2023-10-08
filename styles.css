@@ -143,6 +143,10 @@ header {
     height: auto;
 }
 
+#news-page-header-img {
+    max-width: 480px;
+}
+
 .rob-about-image {
     border-radius: 5px;
 }
