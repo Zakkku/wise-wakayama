@@ -148,6 +148,7 @@ header {
 
 .rob-about-image {
     border-radius: 5px;
+    
 }
 
 /* Learn Section */
@@ -791,7 +792,8 @@ footer a {
     }
 
     .rob-info-section-for-about-page__desktop img{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
 
     .rob-info-section-for-about-page__desktop p, .about-page-about-section-ENG__desktop p {
