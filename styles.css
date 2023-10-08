@@ -37,7 +37,6 @@ body {
 
 
 
-
 /* Header */
 
 #color-test-header {
@@ -1080,4 +1079,11 @@ footer a {
     text-align: left;
     width: 200px;
     color:#555;
+    padding-left: 50px;
+  }
+
+  #smaller-text-p-on-jpn-news-page {
+   
+    font-size: 14.5px;
+    margin-bottom: 20px;
   }
