@@ -1,0 +1,1087 @@
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.slightly-rounded-img {
+    border-radius: 10px;
+}
+
+.margin-bottom-big {
+    margin-bottom: 100px;
+}
+
+.click-here-link {
+    margin-bottom: 8px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+
+
+
+/* Header */
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.header-logo {
+    margin-right: 10px;
+    height: 65px;
+    margin-left: -10px;
+    border-radius: 5px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Translate Page link*/
+#translate-page-link {
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Navigation Styles */
+
+
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    color: #fff;
+    background-color:#333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+.nav-links.active {
+    display: flex;
+    transform: translateX(0); /* Slide in from the right */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #f36f6f;
+    cursor: pointer;
+}
+
+/* Header Image */
+.header-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#news-page-header-img {
+    max-width: 480px;
+}
+
+.rob-about-image {
+    border-radius: 5px;
+    
+}
+
+/* Learn Section */
+.learn-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    
+}
+
+.learn-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.learn-section p {
+    font-size: 1rem;
+    color: #666;   
+ 
+}
+
+/* header p on the bar page*/
+.bar-page-header-p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* past events section*/
+.past-events-section h2 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.past-events-section h3 {
+    margin-top: 40px;
+}
+
+.events-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-column-list {
+    column-count: 2; /* Set the number of columns to 2 */
+    column-gap: 0; /* Adjust the gap between columns as needed */
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: 1.5px solid #999898;
+    border-radius: 5px;
+    
+}
+
+.past-events-section ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove any default padding */
+}
+
+.past-events-section li {
+    margin-bottom: 10px;
+}
+
+.title-but-its-also-a-link {
+    text-decoration: none;
+    
+    
+}
+
+#event-pic {
+    width: 200px;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.about-item {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.bar-page-ENG-about-item {
+    width: 350px;
+}
+
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.about-image-square {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.about-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.about-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+/* Class info section*/
+
+.class-info-section {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #999898;
+    border-bottom: 2px solid #999898;
+}
+.class-info-section h2 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.class-info-section p {
+    font-size: 1rem;
+    color: #666;
+   
+}
+
+.class-info-section h3 {
+    font-size: 1.2rem;
+    color: #333;
+
+   
+}
+
+/* b-day party gallery*/
+
+
+img {
+    vertical-align: middle;
+  }
+  
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;  /* this centers the container on the page */
+    padding-top: 40px;
+    background-color: black;
+    margin-bottom: 40px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    max-width: 600px;  /* to prevent the image from growing too wide */
+    max-height: 600px; /* to prevent the image from growing too tall */
+    width: auto;       /* to maintain aspect ratio */
+    height: auto;      /* to maintain aspect ratio */
+    display: block;    /* to remove any extra space at the bottom */
+    margin: 0 auto;    /* center the image */
+}
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 10;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    position: relative;
+    width: 12.5%;  /* This will be 100 divided by number of thumbnails, if you want all thumbnails side-by-side */
+    overflow: hidden;
+    padding-top: 12.5%;  /* This creates the square shape. The value should match the width */
+    margin-bottom: 40px;
+  }
+
+  .column img.demo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;  
+    max-height: 100%;  
+}
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/*Rob Info Section*/
+.rob-info-section {
+ display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    /* border-bottom: 3px solid #999898; */
+}
+
+.rob-info-section h3, h2 {
+    color: #333;
+    
+}
+
+.rob-info-section img {
+    margin-bottom: 40px;
+}
+
+.rob-info-section h2 {
+    margin-top: 20px;
+}
+
+.rob-info-section p {
+    max-width: 90%;
+    color: #666;
+}
+
+
+
+
+
+ /*qualifications sections*/
+.qualifications a {
+    margin-bottom: 6px;
+    
+}
+
+.qualifications-inner-div {
+   border: 1.5px solid #999898;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.newest-qualifications-inner-div {
+  
+   padding-left: 68px;
+   padding-right: 68px;
+}
+
+
+/* General Photo Gallery */
+.photo-gallery {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: flex-start; /* Start from left */
+    align-items: center;
+    width: 600%; /* Total width for 6 images */
+    transition: transform 1s ease-in-out;
+    animation: scrollGallery 30s linear infinite alternate; /* Auto-scroll animation */
+    
+}
+
+.gallery-image {
+    width: 16.666%; /* 100% divided by 6 images */
+    max-width: 450px;
+    height: auto;
+    max-height: 300px;
+    opacity: 1; /* Set to 1 for all images */
+    object-fit: cover;
+}
+
+@keyframes scrollGallery {
+    0% {
+        transform: translateX(-1%);
+    }
+    100% {
+        transform: translateX(-82%); /* Move to next image */
+    }
+}
+
+.photo-gallery h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Bar Photo Gallery */
+.bar-photo-gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.bar-gallery-container {
+    display: flex;
+    justify-content: flex-start; /* Start from left */
+    align-items: center;
+    width: 300%; /* Total width for 3 images */
+    transition: transform 1s ease-in-out;
+    animation: scrollBarGallery 10s linear infinite alternate; /* Auto-scroll animation */
+    
+}
+
+.bar-gallery-image {
+    width: 33.333%; /* 100% divided by 3 images */
+    max-height: 300px;
+    opacity: 1; /* Set to 1 for all images */
+    object-fit: cover;
+}
+
+@keyframes scrollBarGallery {
+    0% {
+        transform: translateX(-1.5%);
+    }
+    100% {
+        transform: translateX(-65%); /* Move to next image */
+    }
+}
+
+.bar-photo-gallery h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+/* Contact section styles */
+.contact-section {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.parking-h2 {
+    margin-top: 20px;
+}
+
+.contact-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 0.9rem;
+    color: rgb(73, 73, 73);
+    max-width: 300px;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+.bottom-p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.jpn-bottom-p {
+    font-size: 13px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+#youtube-icon-div {
+    margin-left: 5px;
+}
+
+#line-icon-div {
+    padding-top: 7px;
+    margin-left: 8px;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+footer a {
+    color: #fff;
+    /* text-decoration: none; */
+}
+
+
+.rob-info-section__for-desktop {
+    display: none;
+}
+
+.rob-info-section-for-about-page__desktop {
+    display: none;
+}
+
+
+.rob-info-section__desktop-h2 {
+    display: none;
+}
+
+/*styles for all screen widths*/
+.textbooks-img__desktop {
+    max-height: 300px;
+}
+
+    /*Read more button*/
+    #more {display: none;}
+
+    .bar-page-header-p__desktop {
+        display: none;
+    }
+
+    #myBtn {
+        border: 2px solid #555555;
+        background-color: white; /* Set the initial background color to white */
+        color: black;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      
+      #myBtn.clicked {
+        background-color: #555555; /* Grey background for the "Read less" state */
+        color: white;
+        border: none;
+      }
+      
+      #myBtn:not(.clicked):hover {
+        background-color: #555555;
+        color: white;
+      }
+     
+     
+      
+
+/* Media Queries */
+
+@media only screen and (min-width: 980px) {
+    /* For desktop: */
+ 
+    /*read more button*/
+.bar-page-header-p__mobile {
+    display: none;
+}
+
+.bar-page-header-p__desktop {
+    display: block;
+}
+
+#myBtn {
+    display: none;
+}
+
+
+    
+    .header-image {
+        max-width: 500px;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    
+
+ 
+
+    .main-about-section__inner-div {
+       
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .main-class-info-section__inner-div {
+     
+        display: flex;
+       
+        flex-direction: row; 
+        
+    }
+
+    #main-class-info-section__additional-info {
+     margin-top: 50px;
+     margin-bottom: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+       
+       
+        
+    }
+
+    .additional-info-wrapper-div {
+        padding-right: 112px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #main-class-info-section__additional-info img {
+        margin-left: 50px;
+       
+    }
+
+   
+
+    #main-class-info-section__additional-info h3 {
+        margin-bottom: 20px;
+    }
+
+    .additional-information-div {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .additional-information-div p {
+        
+        width: 70%;
+    }
+
+
+
+    .rob-info-section {
+        display: none;
+        
+    }
+
+    .rob-info-section__for-desktop {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border-bottom: 3px solid #999898; */
+    }
+/* for about page on desktop*/
+    .rob-info-section-for-about-page__desktop {
+        display:block;
+        margin-top: 40px;
+    }
+
+    .rob-info-section-for-about-page__desktop img{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .rob-info-section-for-about-page__desktop p, .about-page-about-section-ENG__desktop p {
+        color:#666;
+        width: 80%;
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+/*end of for about page styles on desktop*/
+    .rob-info-section__desktop-h2 {
+        display: block;
+    }
+
+    .rob-info-section__for-desktop__inner-div-for-ps {
+        padding-top: 30px;
+       
+    }
+
+    .rob-info-section__for-desktop__inner-div-for-ps p {
+        
+      max-width: 500px;
+    }
+
+    .rob-info-section__for-desktop h2, h3 {
+        color: #333;
+    }
+
+
+
+.rob-info-section__for-desktop p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.about-image-square {
+    width: 350px;
+}
+   
+
+    .contact-section {
+        display: flex;
+        background-color: cornflowerblue;
+        flex-direction: row;
+        justify-content:space-evenly;
+        
+      
+    }
+
+    .contact-section__inner-div {
+        margin-left: 14px;
+    }
+
+    .contact-section__inner-div p {
+      text-align: left;
+       max-width: 450px;
+    }
+
+    .access-contact-inner-div {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .bar-page__class-info-section {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .gallery-container {
+       
+        animation: scrollGallery 10s linear infinite alternate; /* Auto-scroll animation */
+        
+    }
+    
+    .forest-school-info-section__desktop {
+       
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 80px;
+    }
+
+    @keyframes scrollGallery {
+        0% {
+            transform: translateX(-1%);
+        }
+        100% {
+            transform: translateX(-13%); 
+        }
+    }
+
+    .bar-gallery-container {
+        display: flex;
+        justify-content: center; /* Center the images horizontally */
+        align-items: center;
+        width: 100%; /* Set the width to 100% to contain the images */
+        animation: none; /* Stop the animation */
+    }
+
+    .bar-gallery-image {
+        max-width: 427px; /* Reset the width for larger screens */
+        
+    }
+
+    .contact-section p {
+        color: rgb(73, 73, 73);
+    }
+
+    .two-column-list {
+       width: 80%;
+        /* margin: 0 auto 40px auto; */
+    }
+
+    .events-photos-section {
+        padding-top: 10px;
+        padding-bottom: 0;
+    
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+
+    .events-list-container {
+        
+        flex-direction: row;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: space-evenly;
+        
+    }
+
+    .events-list-ul-container {
+        display: flex;
+        flex-direction: column;
+      width: 100%
+      
+       
+    }
+
+    
+
+    .container {
+       
+       
+        border-radius: 8px;
+        
+    }
+
+    /* for desktop navigation menu*/
+    .nav-links {
+        display: flex !important; /* Adding !important to ensure override */
+        
+    }
+
+    /* Hide the hamburger menu on desktop */
+    .hamburger-menu {
+        display: none;
+    }
+
+    /* Show the nav-links on desktop and style them horizontally */
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        padding: 0;
+        transform: none;
+       justify-content: center;
+      background-color: cornflowerblue;
+    }
+
+   
+   
+
+    /* Adjust the nav-link styling for desktop */
+
+    
+
+    .nav-links a {
+        margin-right: 40px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 1rem;
+        color:#333;
+       
+    }
+
+    .nav-links a:last-child {
+        margin-right: 0; /* remove right margin for the last link */
+    }
+
+    /*I was going to use this for the navlinks but decided to make all links on all pages do it*/
+     a:hover {
+        opacity: 0.7; 
+        transition: opacity 0.3s ease; 
+    }
+
+    /* Hide close button on desktop */
+    .close-btn {
+        display: none;
+    }
+
+
+    .nav-link:hover:not(.active-tab) {
+        /* color: white; */
+        opacity: 0.5; /* Adjust this value to your liking; 1 is fully opaque, 0 is fully transparent */
+        transition: 0.3s ease;
+    }
+
+      .active-tab {
+        color: white !important;
+      }
+
+      .active-tab:hover {
+       
+        opacity: 1;
+      }
+
+   
+}
+
+/* Keyframes for the bar gallery */
+@keyframes scrollBarGallery {
+    0% {
+        transform: translateX(-1.5%);
+    }
+    100% {
+        transform: translateX(-65%); /* Move to next image */
+    }
+       
+
+  }
+
+
+  
+  /* #goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1001;
+    font-size: 18px;
+    border: 1px solid #555;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #goToTopBtn:hover {
+    background-color: #555;
+  } */
+
+  #goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 99;
+    font-size: 14px;
+    border: 2px solid white;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px 4px 10px 5px;
+    border-radius: 4px;
+  }
+  
+  #goToTopBtn:hover {
+    background-color: #555;
+  }
+
+  /***********************************************************/
+  /*Style for news pages*/
+  #news-page-ul {
+    margin: 0 auto;
+    text-align: left;
+    width: 200px;
+    color:#555;
+    padding-left: 50px;
+  }
+
+  #smaller-text-p-on-jpn-news-page {
+   
+    font-size: 14.5px;
+    margin-bottom: 20px;
+  }
