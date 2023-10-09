@@ -39,9 +39,7 @@ body {
 
 /* Header */
 
-#color-test-header {
-    background-color: rgb(9, 9, 9);
-}
+
 
 
 
@@ -102,7 +100,7 @@ header {
     display: none;
     flex-direction: column;
     color: #fff;
-    background-color: rgb(9, 9, 9);
+    background-color:#333;
     position: fixed;
     top: 0;
     right: 0;
@@ -973,9 +971,7 @@ footer a {
 
     /* Adjust the nav-link styling for desktop */
 
-    #test-color-nav-link {
-        color: rgb(9, 9, 9);
-    }
+    
 
     .nav-links a {
         margin-right: 40px;
