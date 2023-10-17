@@ -153,7 +153,7 @@ header {
 .learn-section {
     padding: 20px;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #fff;
     
 }
 
@@ -228,7 +228,7 @@ header {
     flex-direction: column; /* Change to column */
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
 
 .about-item {
@@ -275,7 +275,7 @@ header {
     flex-direction: column; /* Change to column */
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-top: 2px solid #999898;
     border-bottom: 2px solid #999898;
 }
@@ -476,7 +476,7 @@ img {
 .photo-gallery {
     text-align: center;
     padding: 40px 20px 20px 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     overflow: hidden; /* Hide overflowing images */
 }
 
@@ -518,7 +518,7 @@ img {
 .bar-photo-gallery {
     text-align: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     overflow: hidden; /* Hide overflowing images */
 }
 
@@ -1029,26 +1029,6 @@ footer a {
   }
 
 
-  
-  /* #goToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    z-index: 1001;
-    font-size: 18px;
-    border: 1px solid #555;
-    outline: none;
-    background-color: cornflowerblue;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #goToTopBtn:hover {
-    background-color: #555;
-  } */
 
   #goToTopBtn {
     display: none;
