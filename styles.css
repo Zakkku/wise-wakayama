@@ -1103,3 +1103,51 @@ footer a {
     font-size: 14.5px;
     margin-bottom: 20px;
   }
+
+  .news-page-responsive-grid-gallery-container {
+    text-align: center;
+    max-width: 1027px;
+    margin: 0 auto;
+  }
+
+  .grid-gallery {
+    
+        display: flex;
+        flex-direction: column;
+        gap: 8px;    
+         
+      
+  }
+
+  .grid-gallery img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  @media screen and (min-width: 768px) {
+  
+    .grid-gallery {
+      display: grid;
+      grid-template-columns: auto auto;
+      
+    }
+    
+    
+  }
+  
+  @media screen and (min-width: 1024px) {
+    
+    .grid-gallery {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      
+    }
+    .noods {
+      grid-area: 1 / 2 / 3 / 4;
+  
+      object-fit: fill; 
+    }
+  }
+  
