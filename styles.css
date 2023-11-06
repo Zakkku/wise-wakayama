@@ -428,6 +428,11 @@ img {
     
 }
 
+.empty-div-for-events-page {
+    background-color: cornflowerblue;
+    height: 39.2px;
+}
+
 .events-h2-header {
     border-top: 1px solid #999898;
     background-color: cornflowerblue;
@@ -435,7 +440,7 @@ img {
 }
 
 .monthly-events-div {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 /*Rob Info Section*/
