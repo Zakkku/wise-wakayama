@@ -420,6 +420,24 @@ img {
     opacity: 1;
   }
 
+  .monthly-events-container {
+
+    padding: 20px;
+    border-top: 1px solid #999898; 
+    border-bottom: 1px solid #999898;
+    
+}
+
+.events-h2-header {
+    border-top: 1px solid #999898;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.monthly-events-div {
+    margin-bottom: 20px;
+}
+
 /*Rob Info Section*/
 .rob-info-section {
  display: flex;
@@ -935,7 +953,22 @@ footer a {
        
     }
 
-    
+    .monthly-events-container {
+
+        padding: 20px;
+        border-top: 1px solid #999898; 
+        border-bottom: 1px solid #999898;
+        
+    }
+
+    .monthly-events-inner-container {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 60%;
+        margin: 0 auto;
+    }
 
     .container {
        
