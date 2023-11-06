@@ -1150,4 +1150,12 @@ footer a {
       object-fit: fill; 
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .news-page-responsive-grid-gallery-container {
+        width: 75%;
+    }
+
+    
+  }
   
