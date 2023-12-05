@@ -1160,3 +1160,38 @@ footer a {
     
   }
   
+  .instagram-section {
+    margin-top: 25px;
+   
+  }
+
+  .instagram-section__h2 {
+    margin-bottom: 10px;
+    
+  }
+
+  .instagram-section__inner-div {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 820px) {
+    .instagram-section__inner-div {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1200px;
+        min-width: 700px;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 819px) {
+    .instagram-section__inner-div {
+        display: flex;
+        flex-direction: column;
+      
+       
+    }
+  }
+
+  
