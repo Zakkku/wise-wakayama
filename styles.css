@@ -533,7 +533,6 @@ h2 {
     display: flex;
     justify-content: flex-start;
     /* Start from left */
-    align-items: center;
     width: 600%;
     /* Total width for 6 images */
     transition: transform 1s ease-in-out;
