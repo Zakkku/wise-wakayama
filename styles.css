@@ -1184,12 +1184,21 @@ footer a {
     object-fit: fill;
 }
 
+.current-news-img {
+    width: 90%;
+    margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
 
     .grid-gallery {
         display: grid;
         grid-template-columns: auto auto;
 
+    }
+
+    .current-news-img {
+        width: 900px;
     }
 
 
@@ -1215,25 +1224,25 @@ footer a {
         width: 75%;
     }
 
-    
-  }
-  
-  .instagram-section {
+
+}
+
+.instagram-section {
     margin-top: 25px;
-   
-  }
 
-  .instagram-section__h2 {
+}
+
+.instagram-section__h2 {
     margin-bottom: 10px;
-    
-  }
 
-  .instagram-section__inner-div {
+}
+
+.instagram-section__inner-div {
     margin: 0 auto;
     align-items: center;
-  }
+}
 
-  @media screen and (min-width: 820px) {
+@media screen and (min-width: 820px) {
     .instagram-section__inner-div {
         display: flex;
         justify-content: space-evenly;
@@ -1241,15 +1250,13 @@ footer a {
         min-width: 700px;
         align-items: center;
     }
-  }
+}
 
-  @media screen and (max-width: 819px) {
+@media screen and (max-width: 819px) {
     .instagram-section__inner-div {
         display: flex;
         flex-direction: column;
-      
-       
-    }
-  }
 
-  
+
+    }
+}
