@@ -38,6 +38,12 @@ body {
     margin-top: 50px;
 }
 
+.invisible {
+
+    visibility: hidden;
+
+}
+
 
 
 
@@ -246,6 +252,12 @@ header {
     text-align: center;
     margin: 20px;
     width: 300px;
+}
+
+.about-item-wider {
+    text-align: center;
+    margin: 20px;
+    width: 350px;
 }
 
 .bar-page-ENG-about-item {
