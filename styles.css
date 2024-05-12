@@ -38,6 +38,12 @@ body {
     margin-top: 50px;
 }
 
+.invisible {
+
+    visibility: hidden;
+
+}
+
 
 
 
@@ -246,6 +252,12 @@ header {
     text-align: center;
     margin: 20px;
     width: 300px;
+}
+
+.about-item-wider {
+    text-align: center;
+    margin: 20px;
+    width: 350px;
 }
 
 .bar-page-ENG-about-item {
@@ -779,6 +791,8 @@ footer a {
 
 
 
+
+
     .main-about-section__inner-div {
 
         display: flex;
@@ -791,7 +805,9 @@ footer a {
 
         flex-direction: row;
 
+
     }
+
 
     #main-class-info-section__additional-info {
         margin-top: 50px;
