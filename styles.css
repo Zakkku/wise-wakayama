@@ -62,6 +62,10 @@ header {
     padding: 10px 20px;
 }
 
+.forest-school-header {
+    background-color: black;
+}
+
 .company-name {
     font-size: 1.5rem;
     font-weight: bold;
@@ -640,6 +644,8 @@ h2 {
     background-color: cornflowerblue;
 }
 
+
+
 .parking-h2 {
     margin-top: 20px;
 }
@@ -1074,6 +1080,10 @@ footer a {
         background-color: cornflowerblue;
     }
 
+    .forest-school-nav-links {
+        background-color: #2c944f;
+    }
+
 
 
 
@@ -1088,6 +1098,10 @@ footer a {
         font-size: 1rem;
         color: #333;
 
+    }
+
+    .forest-school-nav-links a {
+        color: black;
     }
 
     .nav-links a:last-child {
@@ -1275,4 +1289,24 @@ footer a {
 
 
     }
+}
+
+/* For new forest school page*/
+
+.forest-school-contact-section {
+    background-color: #2c944f;
+}
+
+.forest-school-contact-section p,
+.forest-school-contact-section h2 {
+    color: black;
+}
+
+.forest-school-footer {
+    background-color: black;
+}
+
+.forest-school-go-to-top-button {
+    background-color: #2c944f !important;
+    /* original color is declared in an id*/
 }
