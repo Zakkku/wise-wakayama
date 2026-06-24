@@ -1,0 +1,341 @@
+<!-- This website was coded by hand (no frameworks/libraries) by Zach in Japan >> www.zach-japan.com -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>W.I.S.E. Coaching - Coming Soon</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .coming-soon-section {
+        min-height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #0d0d1a 0%, #121228 45%, #0a1628 100%);
+        position: relative;
+        overflow: hidden;
+        padding: 60px 20px;
+      }
+
+      .coming-soon-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(90px);
+        opacity: 0.18;
+        pointer-events: none;
+      }
+
+      .orb-1 {
+        width: 450px;
+        height: 450px;
+        background: radial-gradient(circle, #c9a227, transparent 70%);
+        top: -120px;
+        right: -120px;
+        animation: orbFloat 9s ease-in-out infinite;
+      }
+
+      .orb-2 {
+        width: 350px;
+        height: 350px;
+        background: radial-gradient(circle, #3a6fa8, transparent 70%);
+        bottom: -100px;
+        left: -100px;
+        animation: orbFloat 11s ease-in-out infinite reverse;
+      }
+
+      .orb-3 {
+        width: 200px;
+        height: 200px;
+        background: radial-gradient(circle, #c9a227, transparent 70%);
+        top: 50%;
+        left: 5%;
+        opacity: 0.08;
+        animation: orbFloat 14s ease-in-out infinite 2s;
+      }
+
+      @keyframes orbFloat {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        33%       { transform: translate(25px, -25px) scale(1.06); }
+        66%       { transform: translate(-15px, 18px) scale(0.94); }
+      }
+
+      .coming-soon-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: white;
+        max-width: 680px;
+        width: 100%;
+        animation: fadeInUp 1s ease both;
+      }
+
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .coming-soon-logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid rgba(201, 162, 39, 0.7);
+        box-shadow: 0 0 0 6px rgba(201, 162, 39, 0.1);
+        margin-bottom: 28px;
+        animation: logoGlow 3s ease-in-out infinite alternate;
+      }
+
+      @keyframes logoGlow {
+        from { box-shadow: 0 0 0 6px rgba(201, 162, 39, 0.08), 0 0 25px rgba(201, 162, 39, 0.15); }
+        to   { box-shadow: 0 0 0 10px rgba(201, 162, 39, 0.15), 0 0 50px rgba(201, 162, 39, 0.35); }
+      }
+
+      .coming-soon-brand {
+        font-size: clamp(1rem, 3.5vw, 1.5rem);
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #c9a227;
+        margin-bottom: 20px;
+      }
+
+      .coming-soon-divider {
+        width: 80px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #c9a227, transparent);
+        margin: 0 auto 28px;
+      }
+
+      .coming-soon-headline {
+        font-size: clamp(3.5rem, 14vw, 7rem);
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        background: linear-gradient(135deg, #ffffff 30%, #c9a227 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 12px;
+        animation: shimmer 5s ease-in-out infinite;
+      }
+
+      @keyframes shimmer {
+        0%, 100% { filter: brightness(1); }
+        50%       { filter: brightness(1.15); }
+      }
+
+      .coming-soon-dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 34px;
+      }
+
+      .coming-soon-dot {
+        width: 8px;
+        height: 8px;
+        background: #c9a227;
+        border-radius: 50%;
+        animation: dotPulse 1.6s ease-in-out infinite;
+      }
+
+      .coming-soon-dot:nth-child(2) { animation-delay: 0.25s; }
+      .coming-soon-dot:nth-child(3) { animation-delay: 0.5s; }
+
+      @keyframes dotPulse {
+        0%, 80%, 100% { opacity: 0.25; transform: scale(0.75); }
+        40%            { opacity: 1;    transform: scale(1.25); }
+      }
+
+      .coming-soon-description {
+        font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+        color: rgba(255, 255, 255, 0.65);
+        line-height: 1.85;
+        margin-bottom: 44px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .coming-soon-cta-label {
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.85rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      .coming-soon-btn {
+        display: inline-block;
+        padding: 15px 40px;
+        border: 1.5px solid #c9a227;
+        color: #c9a227;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        border-radius: 3px;
+        transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+      }
+
+      .coming-soon-btn:hover {
+        background: #c9a227;
+        color: #0d0d1a;
+        box-shadow: 0 6px 24px rgba(201, 162, 39, 0.4);
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-YLVDVDSL23"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-YLVDVDSL23");
+  </script>
+  <body>
+    <header>
+      <div class="header-left">
+        <img
+          class="header-logo"
+          src="photos/wise logo.jpg"
+          alt="The Wise Logo"
+        />
+        <span class="company-name">W.I.S.E.</span>
+      </div>
+      <div class="header-right">
+        <div class="hamburger-menu">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </div>
+        <a id="translate-page-link" href="coaching-JPN.html">日本語</a>
+      </div>
+    </header>
+    <div class="nav-links">
+      <span class="close-btn">&times;</span>
+      <a href="ENG.html" class="nav-link"
+        >W.I.S.E. International School of English</a
+      >
+      <!-- <a href="international-bar-ENG.html" class="nav-link"
+        >W.I.S.E. International Bar</a
+      > -->
+      <a target="_blank" href="https://forestschool.wise-wakayama.com/" class="nav-link"
+        >W.I.S.E. Forest School</a
+      >
+      <a href="https://oceanschool.official.ec" target="_blank">W.I.S.E. Ocean School</a>
+      <a href="coaching.html" class="nav-link active-tab">W.I.S.E. Coaching</a>
+      <a href="about-ENG.html" class="nav-link">About Rob Sensei</a>
+      <!-- <a href="news-ENG.html" class="nav-link">News</a> -->
+      <a href="events-ENG.html" class="nav-link">W.I.S.E Events</a>
+    </div>
+
+    <section class="coming-soon-section">
+      <div class="coming-soon-orb orb-1"></div>
+      <div class="coming-soon-orb orb-2"></div>
+      <div class="coming-soon-orb orb-3"></div>
+
+      <div class="coming-soon-content">
+        <img class="coming-soon-logo" src="photos/wise logo.jpg" alt="W.I.S.E. Logo" />
+        <p class="coming-soon-brand">W.I.S.E. Coaching</p>
+        <div class="coming-soon-divider"></div>
+        <h1 class="coming-soon-headline">Coming Soon</h1>
+        <div class="coming-soon-dots">
+          <span class="coming-soon-dot"></span>
+          <span class="coming-soon-dot"></span>
+          <span class="coming-soon-dot"></span>
+        </div>
+        <p class="coming-soon-description">
+          Something exciting is on the way. W.I.S.E. Coaching will offer
+          personalised sessions designed to help you unlock your full potential
+          — in life, in work, and beyond.
+        </p>
+        <p class="coming-soon-cta-label">Interested in early access?</p>
+        <a href="mailto:w.i.s.e.englishwakayama@gmail.com" class="coming-soon-btn"
+          >Get in Touch</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <p class="bottom-p">Please feel free to contact us anytime</p>
+
+      <div class="social-links">
+        <div>
+          <a
+            href="https://www.instagram.com/w.i.s.e._english_wakayama/?igshid=MzRlODBiNWFlZA%3D%3D"
+            id="instagram-icon"
+            target="_blank"
+            ><img src="photos/icons8-instagram-48.png" alt="Instagram"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/profile.php?id=100090336353908"
+            target="_blank"
+            ><img src="photos/icons8-facebook-48.png" alt="Facebook"
+          /></a>
+        </div>
+        <div id="youtube-icon-div">
+          <a href="https://www.youtube.com/@W.I.S.E." target="_blank"
+            ><img src="photos/icons8-youtube-48.png" alt="Youtube"
+          /></a>
+        </div>
+        <div id="line-icon-div">
+          <a
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=650looql"
+            target="_blank"
+            ><img src="photos/line (2).png" alt="Line"
+          /></a>
+        </div>
+      </div>
+      <p class="footer-text">
+        Copyright © 2023 W.I.S.E. - All Rights Reserved.
+      </p>
+      <p class="footer-text">
+        <a href="mailto:w.i.s.e.englishwakayama@gmail.com"
+          >w.i.s.e.englishwakayama@gmail.com</a
+        >
+      </p>
+    </footer>
+
+    <button onclick="topFunction()" id="goToTopBtn" title="Go to top">
+      Go to top ↑
+    </button>
+
+    <script src="script.js"></script>
+
+    <script>
+      let goToTopButton = document.getElementById("goToTopBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (window.scrollY > 200) {
+          goToTopButton.style.display = "block";
+        } else {
+          goToTopButton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
