@@ -164,11 +164,14 @@ header {
 
 }
 
-/* Home page video: centred and capped so it doesn't fill the whole screen */
+/* Home page video: centred and capped so it doesn't fill the whole screen.
+   Up to 1200px wide, but never so tall that it doesn't fit on screen below
+   the header (16:9 video, so width = available height x 16/9).
+   The file is 1920px wide, so it stays sharp at every size it's shown at. */
 .home-video {
     display: block;
     width: calc(100% - 32px);
-    max-width: 900px;
+    max-width: min(1200px, calc((100vh - 180px) * 16 / 9));
     height: auto;
     margin: 24px auto;
     border-radius: 10px;
