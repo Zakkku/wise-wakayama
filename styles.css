@@ -1333,7 +1333,37 @@ footer a {
         justify-content: space-evenly;
         max-width: 1200px;
         min-width: 700px;
-        align-items: center;
+        align-items: stretch;
+    }
+}
+
+/* Each Instagram post sits in a card. Side by side, the cards stretch to the
+   taller post's height so both look the same size even when the photos have
+   different shapes. The card carries the border/shadow instead of the embed. */
+.instagram-card {
+    width: calc(100% - 32px);
+    max-width: 540px;
+    margin: 0 auto 16px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.instagram-card .instagram-media {
+    margin: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 820px) {
+    .instagram-card {
+        width: 45%;
+        margin: 0;
     }
 }
 
