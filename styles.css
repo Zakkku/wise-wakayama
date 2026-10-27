@@ -595,6 +595,51 @@ h2 {
     color: #333;
 }
 
+/* Home page gallery: a continuous scrolling strip.
+   The photo set is repeated 3 times in the HTML; sliding the strip left by
+   one set (a third of its width) and then restarting makes a seamless loop,
+   so any number of photos works without changing these numbers. */
+.home-gallery__track {
+    display: flex;
+    width: max-content;
+    animation: homeGalleryScroll 40s linear infinite;
+}
+
+.home-gallery:hover .home-gallery__track {
+    animation-play-state: paused;
+}
+
+.home-gallery__image {
+    height: 240px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+
+@keyframes homeGalleryScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% / 3));
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home-gallery__image {
+        height: 360px;
+        margin-right: 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-gallery__track {
+        animation: none;
+    }
+}
+
 /* Bar Photo Gallery */
 .bar-photo-gallery {
     text-align: center;
