@@ -595,6 +595,56 @@ h2 {
     color: #333;
 }
 
+/* Events page: 2x2 grid of seasonal events, each photo framed with a label */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+.events-grid__card {
+    margin: 0;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.events-grid__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    /* keep faces in frame: crop more from the bottom than the top */
+    object-position: center 30%;
+}
+
+.events-grid__label {
+    padding: 8px 4px;
+    background: cornflowerblue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .events-grid {
+        gap: 24px;
+        margin: 40px auto;
+    }
+
+    .events-grid__label {
+        padding: 12px 8px;
+        font-size: 1.3rem;
+    }
+}
+
 /* Home page gallery: a continuous scrolling strip.
    The photo set is repeated 3 times in the HTML; sliding the strip left by
    one set (a third of its width) and then restarting makes a seamless loop,
