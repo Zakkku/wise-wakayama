@@ -539,6 +539,12 @@ h2 {
     padding: 20px;
 }
 
+/* never wider than its box (the photo is 975px wide) */
+.forest-school-cert {
+    max-width: 100%;
+    height: auto;
+}
+
 .newest-qualifications-inner-div {
 
     padding-left: 68px;
@@ -908,6 +914,9 @@ footer a {
 
         display: flex;
         margin: 0 auto;
+        /* wrap onto a new line instead of running off the screen */
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .main-class-info-section__inner-div {
@@ -916,6 +925,10 @@ footer a {
 
         flex-direction: row;
 
+        /* wrap onto a new line instead of running off the screen */
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1360px;
 
     }
 
